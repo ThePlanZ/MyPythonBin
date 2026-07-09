@@ -1,7 +1,7 @@
 v=["", "", ""]
 p=["Initial Principal Balance", "Rate (In Decimal)", "Number of Years Elapsed"]
 for i in range(len(v)):
-    t="0"
+    t=""
     i=int(i)
     while not t.isdigit() or int(t) < 0:
         t=input(f"{p[i]} : ")
