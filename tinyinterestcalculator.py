@@ -1,5 +1,5 @@
 v = ["", "", "",]
-varprompt = ["Initial Principal Balance", "Rate (Decimal)", "Number of Years Elapsed",]
+varprompt = ["Initial Principal Balance", "Rate (in decimal)", "Number of Years Elapsed",]
 for i in range(len(v)):
     temp = "0"
     i = int(i)
