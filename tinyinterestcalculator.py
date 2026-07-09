@@ -1,5 +1,5 @@
 v=["", "", ""]
-p = ["Initial Principal Balance", "Rate (In Decimal)", "Number of Years Elapsed"]
+p=["Initial Principal Balance", "Rate (In Decimal)", "Number of Years Elapsed"]
 for i in range(len(v)):
     t="0"
     i=int(i)
